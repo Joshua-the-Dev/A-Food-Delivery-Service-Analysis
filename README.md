@@ -11,6 +11,7 @@
 - DATA VISUALIZATION
 - INSIGHTS
 - RECOMMENDATIONS
+- EXPECTED OUTCOMES
 
 # FOOD ORDERS IN NEW DELHI - OVERVIEW
 This report analyzes the operational and financial performance of a food delivery service that is currently facing challenges in achieving profitability. Using a dataset of 1,000 food orders, the project aims to explore the key drivers of cost and revenue, evaluate the existing cost structure, and uncover insights into individual & overall profitability. The goal is to identify strategic opportunities for improving efficiency and profitability across the service's operations.
@@ -57,7 +58,7 @@ The original dataset contains the following columns:
 <img width="960" alt="Screenshot 2025-05-06 121122" src="https://github.com/user-attachments/assets/f054c97e-5763-4588-9695-1bc501f736d8" />
 
 # DATA ANALYSIS
-## COST ANALYSIS
+## Cost Analysis
 ### A breakdown of the associated costs is as follows:
 
 | Cost Component             | Amount (INR)   |
@@ -68,7 +69,7 @@ The original dataset contains the following columns:
 | Discount Fees             | ₹174,257.85     |
 | **Total Costs**           | **₹261,009.85** |
 
-## PROFITABILITY EVALUATION
+## Profitability Evaluation
 ### The following key performance indicators (KPIs) were realized:
 
 | Metric                      | Value        |
@@ -80,7 +81,7 @@ The original dataset contains the following columns:
 
 **Note:** This analysis reveals a negative net profit, indicating that costs exceed revenue. This suggests the food delivery service is currently operating at a loss, highlighting the need for cost optimization or revised pricing strategies to improve financial performance.
 
-## INSIGHTS FROM THE ANALYSIS
+## Insights From the Analysis
 - The average commission rate per order is approximately 19.75%, with variation observed across individual orders.
 - Discount fees constitute about 66.75% of the total costs, indicating a major expense category.
 - Orders with a 50% discount contribute roughly 63.14% of the total discount fees.
@@ -102,4 +103,48 @@ Using conditional logic (e.g., an IF statement), all orders with a 50% discount 
 
 # DATA VISUALIZATION
 
+<img width="642" alt="Screenshot 2025-05-06 134850" src="https://github.com/user-attachments/assets/9d7c1346-cbe8-48aa-8b60-d7d91e6b8434" />
+<img width="644" alt="Screenshot 2025-05-06 140150" src="https://github.com/user-attachments/assets/b9f292d5-bc46-4e79-95d7-df2e3dc9ca30" />
 
+# INSIGHTS
+- Variable Commission Fees
+  * Commission rates were inconsistent across orders, with an average commission of 19.75%.
+  * This variability impacts revenue predictability and overall profitability.
+- High Discount Costs
+  * Total discount fees amounted to ₹174,257.85, accounting for 66.75% of total costs.
+  * The 50% promotional offer alone made up 63.14% of these discount fees, significantly contributing to cost inflation.
+- Unfavorable Cost-Revenue Ratio
+  * Total costs were more than double the revenue earned through commissions, resulting in a negative profit margin.
+- Order Trends by Day of the Week
+  * Sundays recorded the lowest number of orders, indicating a natural downtime in operations.
+
+# RECOMMENDATIONS
+- Commission Structure
+  * Renegotiate the commission rate to a minimum of 20% across all orders.
+  * Ensure this rate is consistent and fixed, without exception, to maintain predictable revenue margins.
+- Discount Policy
+  * Temporarily suspend the 50% offer until further notice to reduce the financial burden caused by excessive discounts.
+  * Evaluate the performance of future promotional campaigns more strategically.
+  * Implement smarter, tiered promotional strategies to retain customers without incurring heavy losses.
+- Payment Processing Optimization
+  * Partner with trusted and cost-effective payment gateways that offer lower processing fees.
+  * Prioritize reliability and fraud prevention when selecting payment processors.
+- Delivery Route Optimization
+  * Implement systems or tools to identify the fastest and most efficient delivery routes. For example Circuit for Teams, Onfleet, Google Maps, etc.
+  * This will help reduce fuel consumption, delivery time, and overall delivery cost.
+- Service Quality and Refund Reduction
+  * Focus on improving service quality to minimize customer dissatisfaction.
+  * Proactively work to reduce refunds and chargebacks through better order accuracy and support.
+- Scheduled Maintenance
+  * Perform scheduled maintenance, staff training, or system upgrades on Sundays, as it historically shows the lowest order volume.
+  * This minimizes operational disruption and ensures the platform remains stable and efficient during peak days.
+
+# Expected Outcomes
+Implementing the recommended strategies will lead to:
+- Increased and consistent revenue from a fixed 20% commission rate.
+- Significant cost reduction by suspending the 50% discount and optimizing promotions.
+- Lower payment processing and delivery costs through better tools and partners.
+- Fewer refunds and chargebacks due to improved service quality.
+- Minimal disruption from maintenance by scheduling it on low-demand Sundays.
+
+**Overall, these changes are expected to transform the business from operating at a loss to achieving a positive profit margin of approximately 20.09% or higher.**
