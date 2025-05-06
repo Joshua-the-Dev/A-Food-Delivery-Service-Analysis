@@ -100,6 +100,7 @@ A new calculated column was created to apply a fixed 20% commission rate across 
 Using conditional logic (e.g., an IF statement), all orders with a 50% discount were excluded from the cost-related columns. New calculated columns were then generated to reflect the reduced discount fees, delivery fees, refunds/chargebacks and payment processing fees, simulating the financial impact of suspending the 50% off promo offer.
 
 <img width="955" alt="Screenshot 2025-05-06 132404" src="https://github.com/user-attachments/assets/3e6d94c0-9819-456a-9aab-044d7828b18f" />
+<img width="957" alt="Screenshot 2025-05-06 160006" src="https://github.com/user-attachments/assets/486369af-2feb-4e75-ad34-124ced0516b4" />
 
 # DATA VISUALIZATION
 
