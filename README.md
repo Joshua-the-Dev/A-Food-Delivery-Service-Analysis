@@ -41,8 +41,8 @@ The original dataset contains the following columns:
 - REFUNDS/CHARGEBACKS: The amount refunded or reversed due to customer complaints, order issues, or disputes.
 
 # TOOLS USED
-- MICROSOFT EXCEL - Data analysis
-- MICROSOFT EXCEL - Data visualization
+- Microsoft Excel - Data analysis
+- Microsoft Excel - Data visualization
 
 # DATA PREPARATION
 ### Data Cleaning - The following data cleaning steps were performed using Power Query:
@@ -57,16 +57,49 @@ The original dataset contains the following columns:
 <img width="960" alt="Screenshot 2025-05-06 121122" src="https://github.com/user-attachments/assets/f054c97e-5763-4588-9695-1bc501f736d8" />
 
 # DATA ANALYSIS
-- A new column was created to calculate discount fees.
-- Cost per order was calculated by summing the following:
- Delivery Fee + Discount Fee + Payment Processing Fee + Refunds/Chargebacks.
+## COST ANALYSIS
+### A breakdown of the associated costs is as follows:
+
+| Cost Component             | Amount (INR)   |
+|---------------------------|----------------|
+| Refunds / Chargebacks     | ₹28,300.00      |
+| Delivery Fees             | ₹28,620.00      |
+| Payment Processing Fees   | ₹29,832.00      |
+| Discount Fees             | ₹174,257.85     |
+| **Total Costs**           | **₹261,009.85** |
+
+## PROFITABILITY EVALUATION
 ### The following key performance indicators (KPIs) were realized:
 
 | Metric                      | Value        |
 |----------------------------|--------------|
 | Total Orders               | 1,000        |
-| Total Revenue (Commission) | 126,990.00   |
-| Total Costs                | 261,009.85   |
-| **Net Profit**             | **-134,019.85** |
+| Total Revenue (Commission) | ₹126,990.00   |
+| Total Costs                | ₹261,009.85   |
+| **Net Profit**             | **₹-134,019.85** |
 
 **Note:** This analysis reveals a negative net profit, indicating that costs exceed revenue. This suggests the food delivery service is currently operating at a loss, highlighting the need for cost optimization or revised pricing strategies to improve financial performance.
+
+## INSIGHTS FROM THE ANALYSIS
+- The average commission rate per order is approximately 19.75%, with variation observed across individual orders.
+- Discount fees constitute about 66.75% of the total costs, indicating a major expense category.
+- Orders with a 50% discount contribute roughly 63.14% of the total discount fees.
+- The 10% standard discount offer was the most frequently applied, appearing in approximately 233 orders.
+
+## Strategic Recommendations for Improvement
+- Standardize and Increase Commission Rate:
+The commission rate should be re-negotiated and increased by 0.25%, bringing it to a fixed 20% across all orders. This will help stabilize revenue and reduce variability in earnings per order.
+- Suspend the 50% Off Promo Offer:
+Given that the 50% discount contributes significantly (63.14%) to total discount fees but does not account for the majority of orders, it is advisable to temporarily suspend this offer. Doing so is expected to substantially lower overall discount related costs and improve net profit margins.
+
+## Simulation of Proposed Strategies
+- Revised Commission Calculation:
+A new calculated column was created to apply a fixed 20% commission rate across all orders. This standardization allows for a clearer projection of revenue under the updated strategy. Additionally, orders with a 50% discount offer were excluded from the commission calculation to reflect their removal from the platform under the proposed strategy.
+- Exclusion of 50% Off Promo Orders from Cost Calculations:
+Using conditional logic (e.g., an IF statement), all orders with a 50% discount were excluded from the cost-related columns. New calculated columns were then generated to reflect the reduced discount fees, delivery fees, refunds/chargebacks and payment processing fees, simulating the financial impact of suspending the 50% off promo offer.
+
+<img width="955" alt="Screenshot 2025-05-06 132404" src="https://github.com/user-attachments/assets/3e6d94c0-9819-456a-9aab-044d7828b18f" />
+
+# DATA VISUALIZATION
+
+
