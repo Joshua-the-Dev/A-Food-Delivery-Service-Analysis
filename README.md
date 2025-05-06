@@ -54,6 +54,8 @@ The original dataset contains the following columns:
 - In the "Discount" column, entries with "50" were standardized to "50%" and "none" was renamed to "0%".
 - In the "Offers" column, "10%" was renamed to "Standard" and "0%" to "None".
 
+<img width="960" alt="Screenshot 2025-05-06 121122" src="https://github.com/user-attachments/assets/f054c97e-5763-4588-9695-1bc501f736d8" />
+
 # DATA ANALYSIS
 - A new column was created to calculate discount fees.
 - Cost per order was calculated by summing the following:
@@ -68,5 +70,3 @@ The original dataset contains the following columns:
 | **Net Profit**             | **-134,019.85** |
 
 **Note:** This analysis reveals a negative net profit, indicating that costs exceed revenue. This suggests the food delivery service is currently operating at a loss, highlighting the need for cost optimization or revised pricing strategies to improve financial performance.
-
-<img width="960" alt="Screenshot 2025-05-06 121122" src="https://github.com/user-attachments/assets/f054c97e-5763-4588-9695-1bc501f736d8" />
