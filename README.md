@@ -3,11 +3,11 @@
 # TABLE OF CONTENT
 - FOOD ORDERS IN NEW DELHI - OVERVIEW
 - OBJECTIVES OF THE ANALYSIS
-- DATA SOURCE
-- DESCRIPTION OF DATA
 - TOOLS USED
-- DATA PREPARATION
-- DATA ANALYSIS
+- DATA SOURCE
+- DESCRIPTION OF RAW DATA
+- DATA PREPROCESSING
+- EXPLORATORY DATA ANALYSIS (EDA)
 - DATA VISUALIZATION
 - INSIGHTS
 - RECOMMENDATIONS
@@ -23,10 +23,14 @@ The task was to conduct:
 - Strategic Recommendations for Improvement: Based on the cost and profitability analysis, identify actionable strategies to reduce costs, adjust pricing, commission fees, and discount strategies to improve profitability. This includes finding a “sweet spot” for commission and discount percentages that ensures profitability across orders.
 - Impact Simulation of Proposed Strategies: Simulate the financial impact of the recommended strategies on profitability, using the dataset to forecast how adjustments in commission rates and discount strategies could potentially transform current losses into profits.
 
+# TOOLS USED
+- Microsoft Excel - Data analysis
+- Microsoft Excel - Data visualization
+
 # DATA SOURCE
 The primary data is gotten from statso.io -[Download Here](https://statso.io/wp-content/uploads/2024/02/food_orders_new_delhi.csv)
 
-# DESCRIPTION OF DATA
+# DESCRIPTION OF RAW DATA
 The original dataset contains the following columns:
 - ORDER ID: A unique identifier assigned to each food order.
 - CUSTOMER ID: A unique identifier for each customer who places an order.
@@ -41,15 +45,13 @@ The original dataset contains the following columns:
 - PAYMENT PROCESSING FEE: The fee charged by the payment gateway for processing the transaction.
 - REFUNDS/CHARGEBACKS: The amount refunded or reversed due to customer complaints, order issues, or disputes.
 
-# TOOLS USED
-- Microsoft Excel - Data analysis
-- Microsoft Excel - Data visualization
-
-# DATA PREPARATION
-### Data Cleaning - The following data cleaning steps were performed using Power Query:
+# DATA PREPROCESSING
+### Data Cleaning - 
+The following data cleaning steps were performed using Power Query:
 - Verified that there were no duplicate values in the dataset.
 - Confirmed that no blank cells or missing values were present.
-### Data Preprocessing - Several preprocessing steps were applied to standardize and structure the data:
+### Data Preprocessing - 
+Several preprocessing steps were applied to standardize and structure the data:
 - Numeric columns were formatted to display values with two decimal places for consistency.
 - The "Discount and Offers" column was split into two separate columns "Discount" and "Offers" using the Text to Columns feature.
 - In the "Discount" column, entries with "50" were standardized to "50%" and "none" was renamed to "0%".
@@ -57,7 +59,7 @@ The original dataset contains the following columns:
 
 <img width="960" alt="Screenshot 2025-05-06 121122" src="https://github.com/user-attachments/assets/f054c97e-5763-4588-9695-1bc501f736d8" />
 
-# DATA ANALYSIS
+# EXPLORATORY DATA ANALYSIS (EDA)
 ## Cost Analysis
 ### A breakdown of the associated costs is as follows:
 
