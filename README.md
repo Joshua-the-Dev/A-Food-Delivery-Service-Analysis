@@ -61,7 +61,7 @@ Several preprocessing steps were applied to standardize and structure the data:
 
 # EXPLORATORY DATA ANALYSIS (EDA)
 ## Cost Analysis
-### A breakdown of the associated costs is as follows:
+A breakdown of the associated costs is as follows:
 
 | Cost Component             | Amount (INR)   |
 |---------------------------|----------------|
@@ -72,7 +72,7 @@ Several preprocessing steps were applied to standardize and structure the data:
 | **Total Costs**           | **₹261,009.85** |
 
 ## Profitability Evaluation
-### The following key performance indicators (KPIs) were realized:
+The following key performance indicators (KPIs) were realized:
 
 | Metric                      | Value        |
 |----------------------------|--------------|
